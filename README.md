@@ -15,9 +15,9 @@
   - [Bold](#bold)
   - [Bold Italics](#bold-italics)
   - [Underline](#underline)
-  - [Italic Underline](#italic-underline)
-  - [Bold Underline](#bold-underline)
-  - [Bold Italic Underline](#bold-italic-underline)
+    - [Italic Underline](#italic-underline)
+    - [Bold Underline](#bold-underline)
+    - [Bold Italic Underline](#bold-italic-underline)
   - [Strikethrough](#strikethrough)
   - [Spoiler Tags](#spoiler-tags)
   
@@ -26,8 +26,10 @@
   - [Block Quotes](#block-quotes)
   - [Anti-Markdown](#anti-markdown)
   - [Syntax Highlighting](#syntax-highlighting)
+  - [Time Stamps](#time-stamps)
 
-<br><br><br>
+<br>
+<hr><br>
 
 # Organizational Text Formatting
 
@@ -105,7 +107,8 @@ This is an ordered list:
     2. sub list item 2
 3. list item 3
 ```
-
+<br>
+<hr><br>
 
 # Text Formatting
 
@@ -154,7 +157,7 @@ For example:
 This text will be __underlined__
 ```
 
-## Italic Underline
+### Italic Underline
 Use `__*` at the start and `*__` at the end of the characters you want to __*italic and underline*__.
 <br>
 For example:
@@ -164,7 +167,7 @@ For example:
 This text will be __*italic and underlined*__
 ```
 
-## Bold Underline
+### Bold Underline
 Use `__**` at the start and `**__` at the end of the characters you want to __**bold and underline**__.
 <br>
 For example:
@@ -174,7 +177,7 @@ For example:
 This text will be __**bold and underlined**__
 ```
 
-## Bold Italic Underline
+### Bold Italic Underline
 Use `__***` at the start and `***__` at the end of the characters you want to __***bold, italic and underline***__.
 <br>
 For example:
@@ -273,6 +276,27 @@ class SomeClass:
 ... prompt'''```
 ```
 You can find more about this [here](https://discord-syntax-highlighting.vercel.app/).
+
+
+## Time Stamps
+You can add timestamps on discord which shows time relative to the user. Discord timestamps are written in the format `<t:timestamp:style>`
+<br>For example:<br>
+
+<img src="https://imgur.com/F71Q9Ev.png" height=400px>
+
+| STYLE |	EXAMPLE OUTPUT |	DESCRIPTION |
+|-------|:--------------:|:-------------|
+|t	|`16:20`|Short Time|
+|T	|`16:20:30`|Long Time|
+|d	|`20/04/2021`	|Short Date|
+|D	|`20 April 2021`	|Long Date|
+|f 	|`20 April 2021 16:20`	|Short Date/Time|
+|F	|`Tuesday, 20 April 2021 16:20`	|Long Date/Time|
+|R	|`2 months ago`	|Relative Time|
+
+
+You can generate your own timestamps from [discord timestamp generator](https://r.3v.fi/discord-timestamps/)
+
 
 ---
 
